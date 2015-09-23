@@ -59,6 +59,6 @@ Copyright © 2014, Alan Dipert and Micha Niskin
 
 Distributed under the Eclipse Public License, the same as Clojure
 
-[hoplon]: http://hoplon.io
+[hoplon]: https://hoplon.io
 [javelin]: https://github.com/hoplon/javelin
 [1]: https://github.com/longbill/jquery-date-range-picker
