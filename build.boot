@@ -1,7 +1,7 @@
 (set-env!
   :source-paths #{"src"}
   :dependencies '[[adzerk/bootlaces               "0.1.12"        :scope "test"]
-                  [cljsjs/jquery-daterange-picker "0.0.5-2"]
+                  [cljsjs/jquery-daterange-picker "0.0.8-0"]
                   [hoplon                         "6.0.0-alpha10"]
                   [hoplon/boot-hoplon             "0.1.10"]
                   [org.clojure/clojure            "1.7.0"]])
@@ -10,7 +10,7 @@
   '[adzerk.bootlaces :refer :all]
   '[hoplon.boot-hoplon :refer [hoplon]])
 
-(def +version+ "0.0.5-0")
+(def +version+ "0.0.8-0")
 (bootlaces! +version+)
 
 (task-options!
