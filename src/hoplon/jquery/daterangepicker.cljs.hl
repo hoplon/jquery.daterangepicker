@@ -36,7 +36,7 @@
 (defelem daterange
   [{:keys [state opts] :as attr} _]
   (cell-let [{:keys [format] :as opts} (cell= (merge {:format "YYYY-MM-DD"} opts))
-             format #(.format (js/moment %) format)]
+             format #(.format (js/moment %) @format)]
     (with-let [elem (input (dissoc attr :state :opts))]
       (elem
         :click #(do (reset! open-picker elem) false)
