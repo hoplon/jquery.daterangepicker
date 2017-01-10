@@ -6,7 +6,7 @@ A [Hoplon][hoplon] wrapper for the [jQuery date range picker plugin][1].
 
 [](dependency)
 ```clojure
-[hoplon/jquery-daterange-picker "0.0.8-0"] ;; latest release
+[hoplon/jquery-daterange-picker "0.0.8-1"] ;; latest release
 ```
 [](/dependency)
 

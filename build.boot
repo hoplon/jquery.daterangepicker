@@ -10,7 +10,7 @@
   '[adzerk.bootlaces :refer :all]
   '[hoplon.boot-hoplon :refer [hoplon]])
 
-(def +version+ "0.0.8-0")
+(def +version+ "0.0.8-1")
 (bootlaces! +version+)
 
 (task-options!
